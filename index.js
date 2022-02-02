@@ -4,6 +4,6 @@ const db = require("./models");
 
 db.sequelize.sync().then(() => {
   app.listen(3000, () => {
-    console.log("server on port 3001");
+    console.log("http://localhost:3000");
   });
 });
